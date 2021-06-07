@@ -1,0 +1,305 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: "Arial Rounded MT Bold", "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color: green;
+  line-height:1.6;
+}
+
+#showcase{
+  background-color: white;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+  color: green;
+	line-height: 100px;
+
+	text-align: center;
+	margin: 0;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#0A4704;
+  border:#0A4704 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#000000;
+  color:#fff;
+}
+
+
+
+p
+{
+	color: white;
+
+
+	text-align: center;
+	margin: 0;
+}
+
+
+
+div,body,header,footer,section,article,nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+a:link, a:visited
+{
+ 	text-decoration:none;
+}
+
+a:hover, a:active
+{
+	text-decoration:none;
+}
+
+
+
+.hidden
+{
+	display: none;
+}
+
+
+#topBar
+{
+	background-color: #000;
+	height: 20px;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+
+}
+
+
+#logo
+{
+  width: 400px; /*-- 250px */
+  margin-left: 0;
+  height: 362px;
+
+}
+
+#logo img{
+   display: block;
+  width: 362px;
+  height: 362px;
+
+
+}
+
+#mainNav
+{
+  margin-left: auto;
+  height: 181px;
+  width: 500px;
+  background-color: #626b70;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  text-align: center;
+  /* float: right; */
+   margin-right:  5px;
+   padding-top: 90px;
+
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: normal;
+  padding: 0px 5px;
+
+
+
+}
+
+nav ul li a {
+ transition: all 0.3s ease 0s;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+
+}
+
+nav ul li a:hover {
+color: green;
+}
+
+#promo
+{
+	margin-top: 40px;
+
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+/*Get rid of this, here just to give different height to promo*/
+#promo p
+{
+
+}
+
+#promoText
+{
+	width: 600px;
+  background-color: #50575b;
+}
+
+#promoImage
+{
+	margin-left: auto;
+	width: 280px;
+}
+#promoImage img
+{
+	margin-left: auto;
+	width: 280px;
+  height: 158px;
+}
+#productInfo
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+
+	padding-bottom: 40px;
+}
+
+/*Get rid of this, here just to give different height to productInfo*/
+#productInfo p
+{
+background-color: #50575b;
+}
+
+.productDesc
+{
+	width: 440px;
+}
+.productDesc img
+{
+	width: 440px;
+  height: 228px;
+}
+
+#mainFooter {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footerNav {
+
+
+  height: 100px;
+  width: 500px;
+  background-color: #626b70;
+
+}
+
+#copyRight
+{
+
+  margin-left: auto;
+  width: 310px;
+  height: 100px;
+
+  background-color: #50575b;
+
+
+}
+
+
+
+#productImages
+{
+	margin-top: 40px;
+
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+}
+
+/*Get rid of this, here just to give different height*/
+#productImages p
+{
+
+}
+
+.productImg
+{
+	width: 280px;
+}
+
+
+#contentAreaBig
+{
+	margin-top: 40px;
+
+	padding-bottom: 40px;
+  background-color: #50575b;
+}
