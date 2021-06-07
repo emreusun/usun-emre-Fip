@@ -1,6 +1,6 @@
 # Old Spice and Carlsberg mashup
 ============================
-# all about our product
+# all about my product
 I chose scenario one for my FIP. I am using Carlsberg style and using
 old spice name for FIP.
 
